@@ -1,0 +1,15 @@
+spring.application.name=scm2.0
+server.port = 8081
+
+
+#Postgres database configurations
+#Database source URL
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+#JPA Configuration
+spring.jpa.show-sql=true
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
